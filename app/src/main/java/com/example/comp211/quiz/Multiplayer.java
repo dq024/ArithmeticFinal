@@ -33,7 +33,7 @@ public class Multiplayer extends AppCompatActivity {
     private String player1, player2;
     private static final int NUMBER_OF_QUESTIONS = 10; // no of questions in the quiz
     private int correctAnswers1, correctAnswers2; // number of correct guesses
-    int qid1 = 0, qid2 = 0;
+    int qid1 = 0, qid2 = 0; //track the questions that each player answered
     private Question currentQ;
 
     // for the question database

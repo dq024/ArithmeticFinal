@@ -18,7 +18,7 @@ public class Scoreboard extends AppCompatActivity {
 
     Button returnToMenu;
     TextView leaderboardDescription;
-    ScoreboardData db = new ScoreboardData(this, 1);
+    ScoreboardData db;
     int rows;
     ArrayList<Player> players = new ArrayList<>();
 
